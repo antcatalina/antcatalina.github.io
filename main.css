@@ -5,11 +5,11 @@
 
 body {
 	background: #aaaaaab9;
-	padding-top: 120px;
+	padding-top: 25px;
 }
 
 .anchor {
-	padding-top: 120px;
+	padding-top: 25px;
 }
 
 /* =============================
@@ -19,7 +19,7 @@ body {
 .fixed-top {
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 25%;
 	right: 0;
 	left: 0;
 	z-index: 999;
@@ -45,7 +45,7 @@ body {
 .jumbotron {
   background: #502811;
   /* height: 350px; */
-  height: 450px;
+  height: 480px;
   background-repeat: no-repeat;
   background-size: cover;
 }
