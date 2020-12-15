@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+/* =============================
+   ======= mainProf.css ======== 
+   ============================= */
+
+body {
+	background: #aaaaaab9;
+	padding-top: 120px;
+}
+
+.anchor {
+	padding-top: 120px;
+}
+
+/* =============================
+   ======= Header style ======== 
+   ============================= */
+
+.fixed-top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	right: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.logo {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.logo:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* ================================
+   ======= Jumbotron style ======== 
+   ================================ */
+
+
+.jumbotron {
+  background: #502811;
+  /* height: 350px; */
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .aainer {
+  position: relative;
+  top:100px;
+  
+}
+
+.jumbotron h1 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;  
+  font-family: 'Cousine', ;
+  /* font-family: 'Shift', sans-serif; */
+  font-weight: bold;
+}
+
+.jumbotron h3 {
+  color: #e4a805b9;
+  /* font-size: 4px; */
+  font-family: 'Cousine', ;
+  /* font-family: 'Shift', sans-serif; */
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+
+/* ================================
+   ======= Minitron style ======== 
+   ================================ */
+
+
+.minitron {
+  background: #e4a805b9;
+  height: 7px;
+}
+
+.minitron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Cousine', ;
+  /* font-family: 'Shift', sans-serif; */
+  font-weight: bold;
+}
+
+.minitron h3 {
+  color: #2F4858;
+  /* font-size: 4px; */
+  font-family: 'Cousine', ;
+  /* font-family: 'Shift', sans-serif; */
+  font-weight: bold;
+}
+
+.minitron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+/* ======================
+   ====== Sections ======
+   ====================== */
+
+.section {
+  /* background-image:url('http://goo.gl/04j7Nn'); */
+  /* background: #00a7bd; */
+  background: #556b2f;
+  /* height: 350px; */
+  height: 75;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section .aainer {
+  position: relative;
+  top:100px;
+  
+}
+
+.section h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Cousine', ;
+  /* font-family: 'Shift', sans-serif; */
+  font-weight: bold;
+}
+
+.section p {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+
+.learn-more {
+  background-color: #e6e6e6;
+  
+}
+
+.learn-more h3 {
+  font-family: 'Cousine', ;
+  /* font-family: 'Shift', sans-serif; */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.site-map {
+  background-color: #fff;
+  
+}
+
+.site-map h3 {
+  font-family: 'Cousine', ;
+  /* font-family: 'Shift', sans-serif; */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.site-map a {
+  color: #00b0ff;
+}
+
+.soon li {
+	display: inline;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: #4281A4;
+  height: 1px;
+}
+
+
+/* ===================================
+   ======= Contact Page style ======== 
+   =================================== */
+
+.contact {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.contact h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.contact p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+
+/* #body {
+    padding-bottom:60px;
+    min-height:100%;
+} /*
+/* =============================
+   ======= Footer style ======== 
+   ============================= */
+
+.footer {
+    /* position:absolute; */
+    height:60px;
+    width:100%;
+    bottom:0;
+    background-color: #e6e6e6;
+}
+
+.footer-info {
+	background-color: #e6e6e6;
+}
+
+.footer-info a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  /* padding: 14px 10px; */
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.footer-info li {
+  display: inline;
+}
+
+.footer-info .pull-left {
+	margin-bottom: 0px;
+}

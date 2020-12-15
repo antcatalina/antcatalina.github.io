@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <head>
   <title> Anthony Catalina </title>
+  <link rel="stylesheet" type="text/css" 	href="main.css"/>
+
   <style>
+  #rcorners2 {
+    border-radius: 15px;
+    border: 1.5px solid #00a7bd;
+    padding: 0px; 
+    width: 135px;
+    height: 70px;  
+  }
+        
+  #rsocial {
+    border-radius: 15px;
+    border: 1.5px solid #ffffff;
+    padding: 7px; 
+    width: 50px;
+    height: 50px;  
+  }
+        
+  .round {
+      border-radius: 50%;
+      border-style: solid;
+      border-width: 4px;
+      border-color: #e4a805b9;
+  }
+        
   body {
     font-family: "Lato", sans-serif;
   }
@@ -69,7 +94,7 @@
     border-right: none; /* Prevent double borders */
   }
 
-  .grayScale figure img {
+  /*.grayScale figure img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-transition: .3s ease-in-out;
@@ -79,7 +104,19 @@
   .grayScale figure:hover img {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
+  }*/
+
+  .spin figure img {
+          border-radius: 50%;
+            -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+        }
+  
+  .spin figure:hover img {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
   }
+        
 
   /* Add a background color on hover */
   .btn-group button:hover {
@@ -124,7 +161,6 @@
   .dropdown:hover .dropbtn {background-color: white;}
     </style>
 </head>
-<center><body bgcolor="#EFEFEF" text="black">
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -151,26 +187,48 @@ document.addEventListener('DOMContentLoaded', start, false);
 </script>
 
 <hr/>
+<center>
+<div class="body">
+    <div class="jumbotron">
+         <div class="container">
+           </br>
+            <div class="spin grayScale">
+                <figure>
+                   <img class="round" src="anthony.JPG" alt="Avatar" width="200px" align="right">
+                 </figure>
+            </div>
+          
+            <h1>
+                Anthony Catalina
+            </h1>
+          
+            <h3>
+                Student at Rowan University
+            </h3>
+          </div>
+  <br/><br/><br/><br/><br/>
+  <font size=4>
 
-<h1> Anthony Catalina </h1>
-<img src="GROGU.gif"></img>
-<font size="4">
-<h3>
-  Welcome to my personal website!
-</h3>
-<br/>
-<p>
-  I am a graduate from Rowan University with a B.S. in Computer Science and an emphasis in programming.
-</p>
-<p>
-  Proficient	in	multiple	programs,	utilizing	both	conceptual	and	practical	applications.	
-</p>
-<p>
-  Performance	driven,	industrious	and	reliable	team	player	and	self-starter,	with	focus	on	accuracy	and	innovation.
-</p>
+  <div class="minitron">
+    <div class="container">
+        <br>
+    </div>
+  </div> 
+
+  <br/>
+  <p>
+      I am a graduate from Rowan University with a B.S. in Computer Science and an emphasis in programming.
+  </p><p>
+      Proficient	in	multiple	programs,	utilizing	both	conceptual	and	practical	applications.	
+  </p><p>
+      Performance	driven,	industrious	and	reliable	team	player	and	self-starter,	with	focus	on	accuracy	and	innovation.
+  </p>
+</div>
+
 <br/>
 <hr/>
-<br/> <br/>
+<br/>
+</left>
 <h1>Education</h1>
 </center>
 
@@ -207,7 +265,7 @@ document.addEventListener('DOMContentLoaded', start, false);
       <li>Computer Lab	Techniques	(C,	Unix)</li>
   </ul>
 </div>
-
+<br/>
 <hr/>
 <br/>
 
@@ -221,8 +279,6 @@ document.addEventListener('DOMContentLoaded', start, false);
    Steinert High School<span style="font-weight: 400; font-size: 18px">, Hamilton, NJ</span>
  <span style="float:right;"><h4 style="font-weight: 400;">September 2011 - June 2015</h4></span>
 </h2>
-
-
 
 </font>
 </body>
