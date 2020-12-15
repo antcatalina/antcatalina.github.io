@@ -69,6 +69,18 @@
     border-right: none; /* Prevent double borders */
   }
 
+  .grayScale figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;
+  }
+
+  .grayScale figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
   /* Add a background color on hover */
   .btn-group button:hover {
     background-color: lightblue;
@@ -112,7 +124,7 @@
   .dropdown:hover .dropbtn {background-color: white;}
     </style>
 </head>
-<center><body bgcolor="black" text="white">
+<center><body bgcolor="#EFEFEF" text="black">
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -156,6 +168,60 @@ document.addEventListener('DOMContentLoaded', start, false);
 <p>
   Performance	driven,	industrious	and	reliable	team	player	and	self-starter,	with	focus	on	accuracy	and	innovation.
 </p>
+</center>
+<hr/>
+<br/> <br/>
+
+<div class="grayScale">
+  <a href="http://rowan.edu" target="_blank">
+      <img class="icon" src="rowanowl.png" alt="Avatar" width="50px" align="left">
+  </a>
+</div>
+
+<h2 style="text-align:left;">
+ Rowan University<span style="font-weight: 400; font-size: 18px">, Glassboro, NJ</span>
+ <span style="float:right;"><h4 style="font-weight: 400;">January 2021</h4></span>
+</h2>
+<h4 style="text-align:left; font-weight: 400;">
+  <a href="https://csm.rowan.edu/departments/cs/programs/bs_cs/index.html" style="color: black" target="_blank">B.S. Computer Science</a>
+</h4>
+<h4 style="text-align:left; font-weight: 400;">
+  GPA: 3.25
+  <br/>
+  Honors: Dean's List (Fall	2016,	Spring	2017,	Fall	2017, Spring 2020)
+</h4>
+<div class="col-md-6">
+  <h4 style="font-weight: 300">Relevant Courses:</h4>
+  <ul class="course">
+      <li>Intro	to	Scientific	Programming	(Python)</li>
+      <li>Foundations of Computer Science</li>
+      <li>Computer	Science	&	Programming	(C++)</li>
+      <li>Computer Organization</li>
+      <li>Networking/Data	Communications</li>
+      <li>Object	Oriented	Programming/Data	Abstraction	(Java)</li>
+      <li>Data	Structures	&	Algorithms	(Java)</li>
+      <li>Programming Languages</li>
+      <li>Software	Engineering	(HTML,	CSS,	Agile/Scrum)</li>
+      <li>Computer Lab	Techniques	(C,	Unix)</li>
+  </ul>
+</div>
+
+<hr/>
+<br/>
+
+<div class="grayScale">
+  <a href="https://www.htsdnj.org/Steinert" target="_blank">
+      <img class="icon" src="steinerthead.png" alt="Avatar" width="50px" align="left">
+  </a>
+</div>
+
+<h2 style="text-align:left;">
+   Steinert High School<span style="font-weight: 400; font-size: 18px">, Hamilton, NJ</span>
+ <span style="float:right;"><h4 style="font-weight: 400;">September 2011 - June 2015</h4></span>
+</h2>
+
+
+
 </font>
-</body></center>
+</body>
 </html>
