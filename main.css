@@ -45,7 +45,7 @@ body {
 .jumbotron {
   background: #502811;
   /* height: 350px; */
-  height: 520px;
+  height: 480px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -211,43 +211,4 @@ hr {
 .contact p {
     font-size: 15px;
     margin-bottom: 13px;
-}
-
-
-/* #body {
-    padding-bottom:60px;
-    min-height:100%;
-} /*
-/* =============================
-   ======= Footer style ======== 
-   ============================= */
-
-.footer {
-    /* position:absolute; */
-    height:60px;
-    width:100%;
-    bottom:0;
-    background-color: #e6e6e6;
-}
-
-.footer-info {
-	background-color: #e6e6e6;
-}
-
-.footer-info a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  margin-bottom: 0px;
-  /* padding: 14px 10px; */
-  padding: 1rem;
-  text-transform: uppercase;
-}
-
-.footer-info li {
-  display: inline;
-}
-
-.footer-info .pull-left {
-	margin-bottom: 0px;
 }
