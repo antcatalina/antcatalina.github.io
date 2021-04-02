@@ -1,234 +1,194 @@
 <!DOCTYPE html>
-<head>
-  <title> Anthony Catalina </title>
-  <link rel="shortcut icon" type="images/svg" href="AC.svg">
-  <link rel="stylesheet" type="text/css" 	href="main.css"/>
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<html>
+<title>Anthony Catalina</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
 
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <style>
-  #rcorners2 {
-    border-radius: 15px;
-    border: 1.5px solid #00a7bd;
-    padding: 0px; 
-    width: 135px;
-    height: 70px;  
-  }
-        
-  #rsocial {
-    border-radius: 15px;
-    border: 1.5px solid #ffffff;
-    padding: 7px; 
-    width: 50px;
-    height: 50px;  
-  }
-        
-  .round {
-      border-radius: 50%;
-      border-style: solid;
-      border-width: 4px;
-      border-color: #e4a805b9;
-  }
-        
-  body {
-    font-family: "Lato", sans-serif;
-  }
-
-  .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ffc524;
-    display: block;
-    transition: 0.3s;
-  }
-
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
-  .btn-group button {
-    background-color: #1B9AD5; /* Green background */
-    border: #1E90FF; /* Green border */
-    color: black; /* Black text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-
-  }
-
-  /* Clear floats (clearfix hack) */
-  .btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .tab{
-  margin-left: 2.5em
-      }
-
-  .btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-  }
-
-  .spin figure img {
-          border-radius: 50%;
-            -webkit-transition: -webkit-transform .8s ease-in-out;
-            transition:         transform .8s ease-in-out;
-        }
+  <!-- The Grid -->
+  <div class="w3-row-padding">
   
-  .spin figure:hover img {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-  }
-      
-    </style>
-</head>
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="/">Home</a>
-  <a onclick="window.open('../Catalina_Resume.pdf')">Resume</a>
-  <a href="https://www.github.com/antcatalina">GitHub</a>
-  <a href="https://www.linkedin.com/in/anthony-catalina-062b31174/">LinkedIn</a>
-  <a href="pages/projects.html">Projects</a>
-</div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "270px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', start, false);
-</script>
-
-<hr/>
-<center>
-<div class="body">
-    <div class="jumbotron">
-         <div class="container">
-           </br>
-            <div class="spin grayScale">
-                <figure>
-                   <img class="round" src="anthony.JPG" alt="Avatar" width="200px" align="right">
-                 </figure>
-            </div>
-          
-            <h1>
-                Anthony Catalina
-            </h1>
-          
-            <h3>
-                Rowan University Graduate
-            </h3>
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="anthony.JPG" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-white">
+            <h2>Anthony Catalina</h2>
           </div>
-  <br/><br/><br/><br/>
-  <font size=4>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-brown"></i>Computer Science Graduate</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-brown"></i>Trenton, NJ</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-brown"></i>antcatalina1@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-brown"></i>(609) 651-0935</p>
+          <hr>
 
-  <div class="minitron">
-    <div class="container">
+          <p class="w3-large"><b><i class="fa fa-keyboard-o fa-fw w3-margin-right w3-text-brown"></i>Languages and Frameworks</b></p>
+          <p>Git</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-brown" style="height:20px;width:100%"></div>
+          </div>
+          <p>HTML/CSS</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-brown" style="height:20px;width:90%"></div>
+          </div>
+          <p>Java & JavaFX</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-brown" style="height:20px;width:75%"></div>
+          </div>
+          <p>ReactJS</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-brown" style="height:20px;width:70%"></div>
+          </div>
+          <p>JavaScript</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-brown" style="height:20px;width:70%"></div>
+          </div>
+          <p>C, C++</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-brown" style="height:20px;width:60%"></div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-wrench fa-fw w3-margin-right w3-text-brown"></i>Tools</b></p>
+          <p>Microsoft Office</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-brown" style="height:20px;width:100%"></div>
+          </div>
+          <p>Eclipse</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-brown" style="height:20px;width:90%"></div>
+          </div>
+          <p>Visual Studio Code</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-brown" style="height:20px;width:90%"></div>
+          </div>
+          <p>IntelliJ</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-brown" style="height:20px;width:70%"></div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-laptop fa-fw w3-margin-right w3-text-brown"></i>Operating Systems</b></p>
+          <p>macOS</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-brown" style="height:20px;width:100%"></div>
+          </div>
+          <p>Microsoft Windows</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-brown" style="height:20px;width:100%"></div>
+          </div>
+          <p>Linux</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-brown" style="height:20px;width:75%"></div>
+          </div>
+          <p>Unix</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-brown" style="height:20px;width:60%"></div>
+          </div>
+        </div>
         <br>
+      </div><br>
+
+    <!-- End Left Column -->
     </div>
-  </div> 
 
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-brown"></i>Education</h2>
+        <div class="w3-container">
+        <a href="http://rowan.edu" target="_blank"><img class="icon" src="rowanowl.png" alt="Avatar" width="45px" align="left"></a>
+          <h4 class ="w3-text-grey"><a href="http://rowan.edu" target="_blank">Rowan University</a></h4>
+          <h6 class="w3-text-brown"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2016 - January 2021</h6>
+          <a href="https://csm.rowan.edu/departments/cs/programs/bs_cs/index.html" style="color: black" target="_blank">B.S. Computer Science</a>
+          <p>Relevant Courses:</p>
+          <li>Programming Languages</li>
+          <li>Computer Science & Programming (C++)</li>
+          <li>Foundations of Computer Science</li>
+          <li>Computer Organization</li>
+          <li>Networking/Data	Communications</li>
+          <li>Object	Oriented	Programming/Data	Abstraction	(Java)</li>
+          <li>Data	Structures	&	Algorithms	(Java)</li>
+          <li>Artificial Intelligence</li>
+          <li>Software	Engineering	(HTML,	CSS,	Agile/Scrum)</li>
+          <li>Computer Lab	Techniques	(C,	Unix)</li>
+          <li>Computer Game Design & Development (C#, Unity)</li>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <a href="https://www.htsdnj.org/Steinert" target="_blank"><img class="icon" src="steinerthead.png" alt="Avatar" width="35px" align="left"></a>
+          <h4 class="w3-opacity"><a href="https://www.htsdnj.org/Steinert" target="_blank">Steinert High School</a></h4>
+          <h6 class="w3-text-brown"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2011 - June 2015</h6>
+          <p>High School Diploma</p>
+          <hr>
+        </div>
+        </div>
+
+        <div class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-brown"></i>Work Experience</h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Kitchen Manager / Stewart's Root Beer</b></h5>
+              <p>Hamilton, NJ</p>
+              <h6 class="w3-text-brown"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020 - <span class="w3-tag w3-brown w3-round">Current</span></h6>
+              <p>Oversee restaurant operations, training new staff members, tracking
+                inventory and placing orders, scheduling staff, and dealing with employee or customer
+                complaints/issues.</p>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Customer Service / DeLorenzo's "The Burg" Pizza</b></h5>
+              <p>Levittown, PA</p>
+              <h6 class="w3-text-brown"><i class="fa fa-calendar fa-fw w3-margin-right"></i>November 2015 - <span class="w3-tag w3-brown w3-round">Current</span></h6>
+              <p>Part-time employment to support tuition costs, serving diverse
+                clientele with patience and courtesy. Duties include cooking, cashier, and serving customers.</p>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5 class="w3-opacity"><b>Computer Technician Assistant / West Windsor-Plainsboro Regional School District</b></h5>
+              <p>West Windsor, NJ</p>
+              <h6 class="w3-text-brown"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2014 - Sep 2014</h6>
+              <p>Installed software on and took inventory of every computer in
+                the district, set up hundreds of new computers for the schools and connected each one to the
+                network, etc. </p><br>
+            </div>
+          </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-brown w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <a class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/anthony-catalina-062b31174/"></a>
+  <a class="fa fa-github w3-hover-opacity" href="https://www.github.com/antcatalina"></a>
+  <a class="fa fa-snapchat w3-hover-opacity" href="https://www.snapchat.com/add/catttttt?"></a>
+  <a class="fa fa-twitter w3-hover-opacity" href="https://twitter.com/antcatalina" target="_blank"></a>
+  <a class="fa fa-envelope w3-hover-opacity" href="mailto: antcatalina1@gmail.com"></a>
   <br/>
-  <p>
-      I am a graduate from Rowan University with a B.S. in Computer Science and an emphasis in programming.
-  </p><p>
-      Proficient	in	multiple	programs,	utilizing	both	conceptual	and	practical	applications.	
-  </p><p>
-      Performance	driven,	industrious	and	reliable	team	player	and	self-starter,	with	focus	on	accuracy	and	innovation.
-  </p>
-</div>
-
-<br/>
-<hr/>
-<br/>
-</left>
-<h1>Education</h1>
-</center>
-
-<div class="grayScale">
-  <a href="http://rowan.edu" target="_blank">
-      <img class="icon" src="rowanowl.png" alt="Avatar" width="50px" align="left">
-  </a>
-</div>
-
-<h2 style="text-align:left;">
- Rowan University<span style="font-weight: 400; font-size: 18px">, Glassboro, NJ</span>
- <span style="float:right;"><h4 style="font-weight: 400;">August 2016 - January 2021</h4></span>
-</h2>
-<h4 style="text-align:left; font-weight: 400;">
-  <a href="https://csm.rowan.edu/departments/cs/programs/bs_cs/index.html" style="color: black" target="_blank">B.S. Computer Science</a>
-</h4>
-<h4 style="text-align:left; font-weight: 400;">
-  GPA: 3.2
   <br/>
-  Honors: Dean's List (Fall	2016,	Spring	2017,	Fall	2017, Spring 2020)
-</h4>
-<div class="col-md-6">
-  <h4 style="font-weight: 300">Relevant Courses:</h4>
-  <ul class="course">
-      <li>Programming Languages</li>
-      <li>Computer Science & Programming (C++)</li>
-      <li>Foundations of Computer Science</li>
-      <li>Computer Organization</li>
-      <li>Networking/Data	Communications</li>
-      <li>Object	Oriented	Programming/Data	Abstraction	(Java)</li>
-      <li>Data	Structures	&	Algorithms	(Java)</li>
-      <li>Artificial Intelligence</li>
-      <li>Software	Engineering	(HTML,	CSS,	Agile/Scrum)</li>
-      <li>Computer Lab	Techniques	(C,	Unix)</li>
-      <li>Computer Game Design & Development (C#, Unity)</li>
-  </ul>
-</div>
-<br/>
-<hr/>
-<br/>
+  <a onclick="window.open('../Catalina_Resume.pdf')" class="btn resume"><u>View Full Resume</u></a>
+  <br/>
+  <br/>
+</footer>
 
-<div class="grayScale">
-  <a href="https://www.htsdnj.org/Steinert" target="_blank">
-      <img class="icon" src="steinerthead.png" alt="Avatar" width="50px" align="left">
-  </a>
-</div>
-
-<h2 style="text-align:left;">
-   Steinert High School<span style="font-weight: 400; font-size: 18px">, Hamilton, NJ</span>
- <span style="float:right;"><h4 style="font-weight: 400;">September 2011 - June 2015</h4></span>
-</h2>
-
-</font>
 </body>
 </html>
