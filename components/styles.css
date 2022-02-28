@@ -41,7 +41,7 @@ textarea:focus {
 
 .styled-container {
     display: block;
-    width: 770px;
+    width: 720px;
     border-radius: 10px;
     background: linear-gradient(90deg, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 100%);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
@@ -65,4 +65,15 @@ textarea:focus {
     background: url(https://upload.wikimedia.org/wikipedia/commons/1/1e/Eo_circle_light-green_white_checkmark.svg) no-repeat 95% 50%;
     background-size: 22px;
     background-color: #f8f8f8;
+}
+
+.form-input-notest {
+    display:block;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #c1cfff;
+    border-radius: 9px;
+    background-color: #f8f8f8;
+    height: 33px;
+    width: 40%;
 }
