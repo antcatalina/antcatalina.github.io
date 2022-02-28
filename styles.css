@@ -1,0 +1,20 @@
+.purple {
+    color: #4F2DA3;
+}
+
+.bg-purple {
+    background-color: #4F2DA3;
+}
+
+.nav-style {
+    background-color:#4F2DA3;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.footer {
+    clear: both; 
+    height:40px;
+    width:100%
+}
