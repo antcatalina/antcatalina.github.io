@@ -7,14 +7,13 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="icon" type="image/x-icon" href="favicon.ico" />
 <link rel="stylesheet" href="components/styles.css">
 <script src="https://kit.fontawesome.com/fd16977f80.js" crossorigin="anonymous"></script>
 <script type="text/javascript">
-  if (screen.width <= 699) {
-  document.location = "mobile";
-  }
-  </script>
+    if (screen.width >= 700) {
+    document.location = "/";
+    }
+    </script>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 hr {opacity: 1}
@@ -62,10 +61,10 @@ hr {opacity: 1}
     <!-- Jumbotron -->
     <div class="mt-3 pt-5 row align-items-md-stretch">
         <div class="container-fluid py-5">
-          <div class="h-100 p-5 text-white bg-dark rounded-3">
-            <h2 class="pt-2">Welcome to my website</h2>
-            <div class="d-flex container">
-                <div class="pt-4">
+          <div class="h-100 pt-5 px-5 pb-3 text-white bg-dark rounded-3">
+            <h2>Welcome to my website</h2>
+            <div class="container">
+                <div>
                     <p>
                         Here you can find some information about me, view my resume, and take a look at some
                         of my current interests.
@@ -78,8 +77,8 @@ hr {opacity: 1}
                         team player and self-starter, with focus on accuracy and innovation.
                     </p>
                 </div>
-                <div class="ps-5">
-                    <img src="images/anthony.jpeg" class="mx-auto d-block" style="width: 200px;
+                <div>
+                    <img src="images/anthony.jpeg" class="mt-4 mx-auto d-block" style="width: 200px;
                         height: 200px; border-radius: 50%; margin-bottom:32px" alt="Avatar">
                 </div>
             </div>
@@ -139,9 +138,8 @@ hr {opacity: 1}
     </div>
   
       <!-- Right Column -->
-      <div class="ps-4 w3-twothird">
+      <div class="w3-twothird">
   
-        <!-- EDUCATION -->
         <div class="w3-container w3-card w3-white w3-margin-bottom">
           <h3 class="w3-text-grey w3-padding"><i class="pt-2 fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge purple"></i>Education</h3>
           <hr>

@@ -1,0 +1,79 @@
+.purple {
+    color: #4F2DA3;
+}
+
+.red {
+    color: red;
+}
+
+.bg-purple {
+    background-color: #4F2DA3;
+}
+
+.nav-style {
+    background-color:#4F2DA3;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.footer {
+    clear: both; 
+    height:40px;
+    width:100%
+}
+
+label {
+    display:block;
+}
+
+textarea {
+    display:block;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #c1cfff;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+textarea:focus {
+    outline: #7ec1ff solid 2.5px;
+}
+
+.styled-container {
+    display: block;
+    width: 720px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 100%);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-input {
+    display:block;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #c1cfff;
+    border-radius: 9px;
+    background-color: #f8f8f8;
+    height: 33px;
+    width: 40%;
+}
+.form-input:focus {
+    outline: #7ec1ff solid 2.5px;
+    background-color:#f8f8f8;
+}
+.form-input:valid {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/1/1e/Eo_circle_light-green_white_checkmark.svg) no-repeat 95% 50%;
+    background-size: 22px;
+    background-color: #f8f8f8;
+}
+
+.form-input-notest {
+    display:block;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #c1cfff;
+    border-radius: 9px;
+    background-color: #f8f8f8;
+    height: 33px;
+    width: 40%;
+}
