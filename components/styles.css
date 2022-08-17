@@ -1,8 +1,14 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 hr {opacity: 1}
 
+.list-item { margin-bottom: 1px; }
+
 .purple {
     color: #4F2DA3;
+}
+
+.border {
+    border-radius: 5px;
 }
 
 .red {
