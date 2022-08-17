@@ -1,3 +1,6 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+hr {opacity: 1}
+
 .purple {
     color: #4F2DA3;
 }
@@ -21,6 +24,13 @@
     clear: both; 
     height:40px;
     width:100%
+}
+
+.avatar {
+    width: 211px;
+    height: 200px;
+    border-radius: 50%; 
+    margin-bottom:32px
 }
 
 label {
@@ -78,3 +88,5 @@ textarea:focus {
     height: 33px;
     width: 40%;
 }
+
+.font-20 { font-size:20px; }
