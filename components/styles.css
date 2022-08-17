@@ -47,6 +47,7 @@ textarea:focus {
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
+
 .form-input {
     display:block;
     padding-left: 10px;
