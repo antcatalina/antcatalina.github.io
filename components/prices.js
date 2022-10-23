@@ -49,7 +49,7 @@ $.ajax(liveprice).done(function (response){
     }
     else {
         ethDown.innerHTML = ethTrend.toFixed(3) + "%"
-        ethUpArrow.style.display = 'block';
+        ethDownArrow.style.display = 'block';
     }
     let adaTrend = response.cardano.usd_24h_change;
     if (adaTrend > 0) {
@@ -58,7 +58,7 @@ $.ajax(liveprice).done(function (response){
     }
     else {
         adaDown.innerHTML = adaTrend.toFixed(3) + "%"
-        adaUpArrow.style.display = 'block';
+        adaDownArrow.style.display = 'block';
     }
     let xrpTrend = response.ripple.usd_24h_change;
     if (xrpTrend > 0) {
@@ -67,7 +67,7 @@ $.ajax(liveprice).done(function (response){
     }
     else {
         xrpDown.innerHTML = xrpTrend.toFixed(3) + "%"
-        xrpUpArrow.style.display = 'block';
+        xrpDownArrow.style.display = 'block';
     }
 
 });

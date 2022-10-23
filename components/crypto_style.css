@@ -11,12 +11,12 @@ body{
 }
 
 .crypto {
-    margin-left: 50px;
+    margin-left: 35px;
 }
 
 .styled-container-dark {
     display: block;
-    width: 550px;
+    width: 325px;
     border-radius: 10px;
     background: linear-gradient(90deg, rgb(41, 41, 41) 0%, rgb(26, 26, 26) 100%);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
@@ -37,24 +37,21 @@ body{
 .container .coin-price{
     display: flex;
     align-items: center;
-    padding: 30px;
     padding-top: 0px;
     border-radius: 5px;
-    margin: 7px;
-    color: rgb(223, 223, 223);
+    color: rgb(209, 209, 209);
 }
 
 .container .coin-price .logo{
-    width: 100px;
-    margin-right: 10px;
+    padding-bottom: 5px;
 }
 .container .coin-price .logo img{
-    width: 100%;
+    width: 80px;
 }
 .container .coin-price div{
     display: block;
 }
 .container .coin-price div h1{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
