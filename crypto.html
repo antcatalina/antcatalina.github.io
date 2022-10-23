@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Live Coin Prices</title>
+    <link rel="stylesheet" href="components/crypto_style.css">
+    <link rel="stylesheet" href="components/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark nav-style">
+        <div class="container container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="images/Anthony Catalina-logos.jpg" alt="" width="232" height="44.5">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link ms-3" href="files/Catalina_Resume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link ms-3" href="photos.html">Photos</a>
+                      </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link ms-3" href="contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-3" href="crypto">Cryptocurrency</a>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            My Links
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/anthony-catalina-062b31174/"
+                                    target="_blank">LinkedIn</a></li>
+                            <li><a class="dropdown-item" href="https://www.github.com/antcatalina"
+                                    target="_blank">GitHub</a></li>
+                            <li><a class="dropdown-item" href="https://twitter.com/antcatalina"
+                                    target="_blank">Twitter</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container pt-5">
+        <div class="container pt-5">
+            <h1 class="text-center title">Live Crypto Prices</h1>
+            <hr>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="styled-container-dark mb-4">
+                <h3 class="pt-3 pb-2 text-center text-white">Bitcoin (BTC)</h3>
+                <div class="ps-5 coin-price">
+                    <div class="logo"><img src="images/bitcoin.png"></div>
+                    <div class="crypto">
+                        <h1>$<span id="bitcoin"></span></h1>
+                        <h1><span class="up" id="btc-up"></span><span class="down" id="btc-down"></span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class=" styled-container-dark mb-4">
+                <h3 class="pt-3 pb-2 text-center text-white">Ethereum (ETH)</h3>
+                <div class="ps-5 coin-price">
+                    <div class="logo"><img src="images/eth.png" height="100"></div>
+                    <div class="crypto">
+                        <h1>$<span id="ethereum"></span></h1>
+                        <h1><span class="up" id="eth-up"></span><span class="down" id="eth-down"></span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="styled-container-dark mb-4">
+                <h3 class="pt-3 pb-2 text-center text-white">Cardano (ADA)</h3>
+                <div class="ps-5 coin-price">
+                    <div class="logo"><img src="images/cardano.png"></div>
+                    <div class="crypto">
+                        <h1>$<span id="cardano"></span></h1>
+                        <h1><span class="up" id="ada-up"></span><span class="down" id="ada-down"></span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class=" styled-container-dark mb-5">
+                <h3 class="pt-3 pb-2 text-center text-white">Ripple (XRP)</h3>
+                <div class="ps-5 coin-price">
+                    <div class="logo"><img src="images/xrp.png"></div>
+                    <div class="crypto">
+                        <h1>$<span id="ripple"></span></h1>
+                        <h1><span class="up" id="xrp-up"></span><span class="down" id="xrp-down"></span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="components/prices.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+var btc = document.getElementById("bitcoin");
+var ltc = document.getElementById("ethereum");
+var ada = document.getElementById("cardano");
+var xrp = document.getElementById("ripple");
+var btcUp = document.getElementById("btc-up");
+var btcDown = document.getElementById("btc-down");
+var ethUp = document.getElementById("eth-up");
+var ethDown = document.getElementById("eth-down");
+var adaUp = document.getElementById("ada-up");
+var adaDown = document.getElementById("ada-down");
+var xrpUp = document.getElementById("xrp-up");
+var xrpDown = document.getElementById("xrp-down");
+
+var liveprice = {
+    "async": true,
+    "scroosDomain": true,
+    "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Ccardano%2Cripple&vs_currencies=usd&include_24hr_change=true",
+
+    "method": "GET",
+    "headers": {}
+}
+
+$.ajax(liveprice).done(function (response){
+    btc.innerHTML = response.bitcoin.usd;
+    ltc.innerHTML = response.ethereum.usd;
+    ada.innerHTML = response.cardano.usd;
+    xrp.innerHTML = response.ripple.usd;
+    let btcTrend = response.bitcoin.usd_24h_change;
+    if (btcTrend > 0) {
+        btcUp.innerHTML = btcTrend.toFixed(3) + "% in past 24 hours"
+    }
+    else {
+        btcDown.innerHTML = btcTrend.toFixed(3) + "% in past 24 hours"
+    }
+    let ethTrend = response.ethereum.usd_24h_change;
+    if (ethTrend > 0) {
+        ethUp.innerHTML = ethTrend.toFixed(3) + "% in past 24 hours"
+    }
+    else {
+        ethDown.innerHTML = ethTrend.toFixed(3) + "% in past 24 hours"
+    }
+    let adaTrend = response.cardano.usd_24h_change;
+    if (adaTrend > 0) {
+        adaUp.innerHTML = adaTrend.toFixed(3) + "% in past 24 hours"
+    }
+    else {
+        adaDown.innerHTML = adaTrend.toFixed(3) + "% in past 24 hours"
+    }
+    let xrpTrend = response.ripple.usd_24h_change;
+    if (xrpTrend > 0) {
+        xrpUp.innerHTML = xrpTrend.toFixed(3) + "% in past 24 hours"
+    }
+    else {
+        xrpDown.innerHTML = xrpTrend.toFixed(3) + "% in past 24 hours"
+    }
+
+});
