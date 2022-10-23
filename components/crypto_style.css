@@ -45,7 +45,7 @@ body{
 }
 
 .container .coin-price .logo{
-    width: 70px;
+    width: 100px;
     margin-right: 10px;
 }
 .container .coin-price .logo img{
@@ -55,5 +55,6 @@ body{
     display: block;
 }
 .container .coin-price div h1{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
 }
